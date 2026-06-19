@@ -1,11 +1,47 @@
-@extends('layouts.app')
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio Yafi</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Selamat Datang di Portofolio Saya</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">Tentang</a></li>
+        <li><a href="#projects">Proyek</a></li>
+        <li><a href="#contact">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
 
-@section('content')
-<div class="d-flex justify-content-center align-items-center min-vh-100">
-    <div class="text-center">
-        <h1>Hi, I'm Yafi 👋</h1>
-        <p class="lead">Mahasiswa Sistem Informasi | <strong style="font-weight: bold;">(Bukan)</strong> Web Developer Enthusiast</p>
-        <a href="/projects" class="btn btn-primary">See My Projects</a>
-</div>
-</div>
-@endsection
+  <section id="about">
+    <h2>Tentang Saya</h2>
+    <p>Halo, saya Yafi. Ini adalah portofolio sederhana yang dibuat dengan HTML, CSS, dan JS.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Proyek</h2>
+    <div class="project">
+      <h3>Proyek 1</h3>
+      <p>Deskripsi singkat proyek pertama.</p>
+    </div>
+    <div class="project">
+      <h3>Proyek 2</h3>
+      <p>Deskripsi singkat proyek kedua.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Kontak</h2>
+    <p>Email: hello@example.com</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Portofolio Yafi</p>
+  </footer>
+</body>
+</html>
